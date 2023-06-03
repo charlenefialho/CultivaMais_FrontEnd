@@ -20,13 +20,9 @@
 }
 
 .ongs{
-    position:relative;
-    top: 100px;
-    left: 8%;
     width: 590px;
     height: 325px;
     background-color: #618C03;
-    display: inline-block;
     align-items:center;
 }
 
@@ -43,12 +39,15 @@
 }
 
 .imagem-home-dois{
-    position: relative;
-    top: 149px;
-    left: 7%;
-    width: 600px;
+    width: 706px;
     height: 325px;
-    display: inline-block;
+}
+
+.texto-imagem-ongs{
+    margin-left: 140px;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
