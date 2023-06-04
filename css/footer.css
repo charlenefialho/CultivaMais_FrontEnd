@@ -1,0 +1,50 @@
+.footer{
+    margin-top: 60px;
+    background-color: #003829;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes-footer{
+    padding: 30px;
+    margin: auto 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.titulo-redes-sociais,.titulo-dados-da-equipe{
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+}
+
+.redes-sociais{
+    position: relative;
+    height: 100px;
+    margin-top: 25px;
+    width: 130px;
+}
+
+.icons-redes-sociais{
+    display: flex;
+    list-style-type: none;
+}
+
+.icons-footer{
+    padding: 10px 20px 10px 0px;
+}
+
+.lista-equipe{
+    color: white;
+    width: 20vw;
+    white-space: nowrap;
+}
+
+.endereco-footer >p {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    padding-top: 10px;
+    color: white;
+}
