@@ -1,50 +1,55 @@
-.footer{
-    margin-top: 60px;
+.footer {
+    margin-top: 40px;
     background-color: #003829;
-    width: 100%;
-    height: 30vh;
+    color: white;
+    padding: 10px;
+    height: 40vh;
+  }
+  
+  .informacoes-footer {
     display: flex;
-    justify-content: center;
-}
-
-.informacoes-footer{
-    padding: 30px;
-    margin: auto 10px;
-    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 90vw;
-}
-
-.titulo-redes-sociais,.titulo-dados-da-equipe{
-    white-space: nowrap;
-    color: rgb(255, 255, 255);
-}
-
-.redes-sociais{
-    position: relative;
-    height: 100px;
-    margin-top: 25px;
-    width: 130px;
-}
-
-.icons-redes-sociais{
-    display: flex;
+  }
+  
+  .redes-sociais {
+    flex-basis: 40%;
+  }
+  
+  .titulo-redes-sociais {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .icons-redes-sociais {
     list-style-type: none;
-}
-
-.icons-footer{
-    padding: 10px 20px 10px 0px;
-}
-
-.lista-equipe{
-    color: white;
-    width: 20vw;
-    white-space: nowrap;
-}
-
-.endereco-footer >p {
-    margin-top: 30px;
-    font-size: 0.9rem;
-    padding-top: 10px;
-    color: white;
-}
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons-footer {
+    margin-right: 10px;
+  }
+  
+  .dados-da-equipe {
+    margin-right: 50px;
+    flex-basis: 30%;
+  }
+  
+  .titulo-dados-da-equipe {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .lista-equipe {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .endereco-footer p {
+    font-size: 14px;
+    margin: 0;
+  }
