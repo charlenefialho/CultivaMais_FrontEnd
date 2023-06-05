@@ -22,7 +22,7 @@
     margin-bottom: 10px;
   }
   
-  .icons-redes-sociais {
+  .icons-redes-sociais,li{
     list-style-type: none;
     padding: 0;
     display: flex;
