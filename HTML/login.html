@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/geral.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/login.css">
     <title>Login</title>
 </head>
 <body>
@@ -34,7 +35,40 @@
             </div>
           </nav>
     </header>
-    <h1>Login</h1>
+    <main>
+      <section class="area-de-login">
+        <form  class="form-login">
+            <h3>Login</h3>
+            <h5>Preencha seus dados de acesso</h5>
+            <fieldset class="inputs-login">
+              <section class="inputs-login">
+                <div class="img-input">
+                  <img src="../image/email-input.svg" alt="" id="img-email">
+                  <input id="idEmail" type="email" placeholder="Digite o seu email">
+                </div>
+                <div class="img-input">
+                  <img src="../image/senha-input.svg" alt="" id="img-email">
+                  <input id="idEmail" type="email" placeholder="Digite o seu email">
+                </div>
+                <div class="checkbox-login">
+                  <input type="checkbox" name="salvarInfos" id="idSalvarInfos" value="True">
+                  <label for="idSalvarInfos"> Salvar informações de login</label>
+                </div>
+              </section>
+            </fieldset>
+              <section class="area-btn-login">
+               <!-- Para quando forms estiver integrado com api<input type="submit" value="Entrar" class="btn-login">--> 
+                <a href="portal.html" class="btn-login">Entrar</a>
+              </section>
+              <div class="ou">
+                <div class="linha"></div>
+                <p>OU</p>
+                <div class="linha"></div>
+              </div>
+        </form>
+       
+      </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
