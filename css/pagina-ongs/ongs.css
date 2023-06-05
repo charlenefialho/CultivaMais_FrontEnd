@@ -1,26 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 .imagem-pagina-ongs{
     position: relative;
-    display: flex;
-    width: 850px;
-    height: 547px;
+    width: 100%
 }
 
+.imagem-pagina-ongs >img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 
 #frase-ong{
     color: black;
     position: absolute;
     display: inline-block;
     white-space: nowrap;
-    top: 45%;
-    left: 55%;
+    top: 40%;
+    left: 35%;
     font-size: 50px;
     font-family: 'Inter', sans-serif;
 }
 
-.convite-ongs{
-    font-size: 25px;
-    position: relative;
-    display: flex;
-    left: 20px;
+.convite-ongs, .envio-formulario{
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
+
+.cadastro-ongs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados-ongs{
+    width: 700px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dados-ongs input{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.botao {
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #003829;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+} 
