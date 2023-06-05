@@ -42,6 +42,9 @@ body{
     text-align: center;
 }
 
+
+
+/*inicio CSS listagem de propiedades*/
 .propriedades-e-chat{
     padding-top: 5vh;
     width: 100%;
@@ -50,16 +53,25 @@ body{
     justify-content: space-evenly;
 }
 
-/*inicio CSS listagem de propiedades*/
+.lista-propriedades-rurais{
+    margin-top: 5vh;
+}
+
+
+.lista-propriedades-rurais> h3{
+    padding-bottom: 6vh;
+}
+
+
 
 #propriedades-scroll{
-    height: 28vh;
+    height: 30vh;
     overflow-y: scroll;
 }
 
 .div-btn-nova-propriedade{
     width: 100%;
-    padding-top: 5vh;
+    padding-top: 7vh;
     padding-bottom: 5vh;
     display: flex;
     justify-content: center;
@@ -84,11 +96,44 @@ body{
     text-align: center;
 }
 
-/*termino CSS listagem de propiedades*/
 
 .coluna-linha-tabela{
     padding: 20px;
 }
+/*termino CSS listagem de propiedades*/
+
+#titulo-uso-ia{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
+.sugestoes-chat ,.sugestoes{
+   
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 60vw;
+    max-width: 600px;
+}
+
+.btn-sugestoes{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-sugestao{
+    padding: 5px 30px 5px 30px ;
+    background-color: rgba(3, 140, 90, 0.5);
+    border-radius: 5px;
+    border: #000 solid 1px ;
+}
+
+
+
 
 /* INICIO CSS DO CHAT*/
 .box-chat{
@@ -99,7 +144,7 @@ body{
     justify-content: space-between;
     width: 60vw;
     max-width: 600px;
-    height: 200px;
+    height: 300px;
     max-height: 800px;
     border: #000 solid 1px;
     text-align: center;
@@ -133,9 +178,48 @@ body{
     transition: .4s;
 }
 
-
 /*FIM CSS DO CHAT*/
 
+
+.sugestoes-informacoes{
+    padding-top: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sugestoes-informacoes-2{
+    padding-top: 2vh;
+    margin-top: 2vh;
+    text-align: center;
+    min-width: 30vw;
+    max-width: 50vw;
+    border: #000 solid 1px;
+}
+
+.informacoes{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.btn-informacoes {
+    border-radius: 12px;
+    padding: 10px 5vw 10px 5vw;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #003829;
+}
+
+.btn-informacoes:hover{
+    color: white;
+}
+
+.portal-footer{
+    margin-top: 7vh;
+    height: 100px;
+    background-color: #003829;
+}
 
 
 
