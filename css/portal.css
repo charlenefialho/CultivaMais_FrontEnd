@@ -221,6 +221,11 @@ body{
     background-color: #003829;
 }
 
+#link-nova-propriedade{
+    text-decoration: none;
+    color: white;
+}
+
 /*
 Exemplo de breakpoint com media 
 @media (min-width: 600px){
