@@ -3,7 +3,7 @@
     background-color: #003829;
     color: white;
     padding: 10px;
-    height: 40vh;
+    min-height: 40vh;
   }
   
   .informacoes-footer {
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+
   .redes-sociais {
     flex-basis: 40%;
   }
@@ -69,3 +69,41 @@
     font-weight: bold;
     font-size: 110%;
   }
+  
+ /* Responsividade */
+@media (max-width: 600px) {
+  .redes-sociais,.dados-da-equipe {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+  
+.informacoes-footer {
+      justify-content: center;
+  }
+.footer {
+    height: 100vh;
+  }  
+}
+  
+@media (min-width: 601px) and (max-width: 768px) {
+  .informacoes-footer {
+    justify-content: space-between;
+  }
+  .footer {
+    height: 90vh; 
+  }
+}
+  
+@media (min-width: 1201px) {
+  .redes-sociais {
+    flex-basis: 40%;
+ }
+
+  .footer {
+    height: 40vh; 
+}
+  
+.dados-da-equipe {
+  flex-basis: 30%;
+  }
+}
