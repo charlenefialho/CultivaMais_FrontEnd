@@ -5,6 +5,10 @@
     background-color: #003829;
 }
 
+.titulo-logo{
+    text-decoration: none;
+}
+
 .logo{
     width: 20vw;
     height: 130px;
