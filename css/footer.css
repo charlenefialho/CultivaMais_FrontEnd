@@ -53,3 +53,19 @@
     font-size: 14px;
     margin: 0;
   }
+
+  #icones{
+    list-style-type: none;
+  }
+
+  .link-icones{
+    text-decoration: none;
+    transition: font-size 0.3s;
+    color: white;
+  }
+
+  .link-icones:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+  }
