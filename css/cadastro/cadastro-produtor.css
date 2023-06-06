@@ -23,7 +23,7 @@ main {
 }
 
 .dadospessoais, .endereco {
-    width: 500px;
+    width: 400px;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 5px;
@@ -39,30 +39,40 @@ main {
     border-radius: 5px;
 }
 
-.botao {
+.botao{
     width: 200px;
     padding: 10px;
     margin: 0 auto;
     background-color: #003829;
-    color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 } 
 
+#botao-cadastro{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: font-size 0.3s;
+}
+
+#botao-cadastro:hover{
+    font-size: 110%;
+}
+
 .termos{
    align-items: center;
 }
 
-a{
+#termos{
     color: black;
     text-decoration: none;
     font-weight: bold;
     transition: font-size 0.3s;
 }
 
-a:hover{
+#termos:hover{
     color: #003829;
     font-size: 110%;
 }
