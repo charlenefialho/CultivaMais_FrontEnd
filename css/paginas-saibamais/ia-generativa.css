@@ -1,0 +1,24 @@
+#titulo{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#subtitulo{
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #003829;
+}
+
+.linha-horizontal {
+    margin-left: 2%;
+    background-color: black;
+    width: 96%;
+  }
+
+.textos{
+    margin-left: 2%;
+    font-size: 20px;
+}

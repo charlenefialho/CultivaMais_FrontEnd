@@ -1,0 +1,50 @@
+body{
+    background-image: url(../image/imagem-saibamais.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.texto-saibamais{
+    margin-left: 2%;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#assunto{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.lista{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #000; 
+}
+
+.marcador{
+    list-style: none;
+}
+
+.lista-assuntos a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: font-size 0.3s;
+}
+a:hover{
+    color: #003829;
+    font-size: 110%;
+}
