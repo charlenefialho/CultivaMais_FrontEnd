@@ -1,0 +1,59 @@
+#subtitulo{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #003829;
+}
+
+.linha-horizontal{
+    margin-left: 10%;
+    background-color: black;
+    width: 80%;
+}
+
+.textos{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#titulo-integrantes{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.integrantes{
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 3%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.integrante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrante img{
+    width: 200px;
+    border-radius: 40%;
+    margin-bottom: 10px;
+}
+
+.nome-integrante{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rm-integrante{
+    font-size: 18px;
+    color: #003829;
+    font-weight: bold;
+}
