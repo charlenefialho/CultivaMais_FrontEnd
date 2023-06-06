@@ -111,7 +111,7 @@
     transition: font-size 0.3s;
 }
 
-a:hover{
+.cadastro a:hover{
     color: #003829;
     font-size: 110%;
 }
