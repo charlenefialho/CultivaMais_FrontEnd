@@ -51,3 +51,64 @@ main {
 label{
     margin-top: 2%;
 }
+
+/* Breakpoint menor que 440px */
+@media (max-width: 440px) {
+    main{
+        height: auto;
+    }
+    .dadospessoais, .endereco, .solicitacao {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    textarea#descricao {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Breakpoint maioe que 440px e menor que 550px */
+@media (min-width:440px) and (max-width: 550px) {
+    main{
+        height: auto;
+    }
+    .dadospessoais, .endereco, .solicitacao {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    textarea#descricao {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+  
+/* Breakpoint maior que 550px e menor que 767px */
+@media (min-width:550px) and (max-width: 767px) {
+    main {
+        height: auto;
+    }
+  
+    .dadospessoais, .endereco, .solicitacao {
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    textarea#descricao {
+        width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Breakpoint maior que 768px e menor que 1200px */
+  @media (min-width: 767px) and (max-width: 1199px) {
+    .dadospessoais,.endereco,.solicitacao {
+      width: 400px;
+    }
+    
+    textarea#descricao {
+      width: 100%;
+      max-width: 100%;
+    }
+}
