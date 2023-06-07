@@ -60,3 +60,58 @@
     height: 200px;
 
 }
+
+/* Responsividade */
+@media (max-width: 400px) {
+    #titulo {
+        font-size: 25px;
+        top: 30%;
+        left: 10%;
+    }
+  
+    #subtitulo {
+        font-size: 20px;
+        margin-left: 5%;
+    }
+  
+    .textos {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+  
+  @media (min-width: 401px) and (max-width: 767px) {
+    #titulo {
+        font-size: 35px;
+        top: 35%;
+        left: 15%;
+    }
+  
+    #subtitulo {
+        font-size: 24px;
+        margin-left: 5%;
+    }
+  
+    .textos {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+  
+  @media (min-width: 768px) and (max-width: 1200px) {
+    #titulo {
+        font-size: 40px;
+        top: 35%;
+        left: 20%;
+    }
+  
+    #subtitulo {
+        font-size: 28px;
+        margin-left: 10%;
+    }
+  
+    .textos {
+        width: 70%;
+        margin-left: 15%;
+    }
+}

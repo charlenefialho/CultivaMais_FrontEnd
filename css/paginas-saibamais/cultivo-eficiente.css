@@ -57,3 +57,110 @@
     height: 400px;
 
 }
+
+/* Responsividade */
+
+@media (max-width: 399px) {
+  #titulo {
+    font-size: 20px;
+    top: 35%;
+    left: 15%;
+  }
+  
+  #subtitulo {
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  
+  .textos {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .imagem-titulo > img {
+    height: 210px;
+  }
+  
+  .imagem-agricultura-eficiente {
+    height: 150px;
+  }
+}
+  
+
+@media (min-width: 400px) and (max-width: 569px) {
+  #titulo {
+    font-size: 30px;
+    top: 40%;
+    left: 15%;
+  }
+  
+  #subtitulo {
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  
+  .textos {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .imagem-titulo > img {
+    height: 260px;
+  }
+  
+  .imagem-agricultura-eficiente {
+    height: 200px;
+  }
+}
+  
+@media (min-width: 569px) and (max-width: 767px) {
+  #titulo {
+    font-size: 40px;
+    top: 40%;
+    left: 15%;
+  }
+  
+   #subtitulo {
+    font-size: 24px;
+    margin-left: 5%;
+  }
+  
+  .textos {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .imagem-titulo > img {
+    height: 330px;
+  }
+  
+  .imagem-agricultura-eficiente {
+    height: 270px;
+  }
+}
+  
+@media (min-width: 768px) and (max-width: 1200px) {
+  #titulo {
+    font-size: 40px;
+    top: 45%;
+    left: 20%;
+  }
+  
+  #subtitulo {
+    font-size: 28px;
+    margin-left: 10%;
+  }
+  
+  .textos {
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .imagem-titulo > img {
+    height: 450px;
+  }
+  
+  .imagem-agricultura-eficiente {
+    height: 350px;
+  }
+}

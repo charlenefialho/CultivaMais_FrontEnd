@@ -62,4 +62,59 @@ body{
     color: #003829;
     font-size: 110%;
 }
+
+/* Responsividade */
+@media (max-width: 400px) {
+    .texto-saibamais {
+        font-size: 20px;
+    }
+  
+    .titulo,.texto-saibamais {
+        margin-left: 5%;
+    }
+  
+    .principal {
+        flex-wrap: wrap;
+    }
+  
+    .lista {
+        width: 90%;
+    }
+}
+  
+@media (min-width: 401px) and (max-width: 767px) {
+    .texto-saibamais {
+        font-size: 22px;
+    }
+  
+    .titulo,.texto-saibamais {
+        margin-left: 5%;
+    }
+  
+    .principal {
+        flex-wrap: wrap;
+    }
+  
+    .lista {
+        width: 45%;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1200px) {
+    .texto-saibamais {
+        font-size: 24px;
+    }
+  
+    .titulo,.texto-saibamais {
+        margin-left: 2%;
+    }
+  
+    .principal {
+        flex-wrap: wrap;
+    }
+  
+    .lista {
+        width: 30%;
+    }
+}
   
