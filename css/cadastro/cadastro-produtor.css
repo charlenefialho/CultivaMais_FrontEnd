@@ -77,3 +77,44 @@ main {
     font-size: 110%;
 }
 
+/* Menor que 400px */
+@media (max-width: 400px) {
+    #titulo {
+        font-size: 1.5rem;
+    }
+    
+    .dadospessoais,.endereco {
+        width: 90%;
+    }
+    
+    .botao {
+        width: 150px;
+    }
+
+    main{
+        height: 180vh;
+    }
+}
+  
+/* Maior que 400px e Menor que 767px */
+@media (min-width: 400px) and (max-width: 768px) {
+    .dadospessoais,.endereco {
+      width: 400px;
+    }
+
+    main{
+        height: 190vh;
+    }
+}
+  
+/* Maior que 768px */
+@media (min-width: 768px) and (max-width: 1150px){
+    .dadospessoais,.endereco {
+      width: 400px;
+    }
+
+    main{
+        height: 180vh;
+    }
+}
+
