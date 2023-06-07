@@ -206,13 +206,83 @@ body{
     color: white;
 }
 
-/*
-Exemplo de breakpoint com media 
-@media (min-width: 600px){
-    #text2Portal{
+/* Responsividade */
+@media (max-width: 400px) {
+    .propriedades-e-chat {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .div-btn-nova-propriedade {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+  
+    #btn-nova-propriedade {
+        width: 60%;
+    }
+
+    .btn-informacoes {
         font-size: 0.5rem;
     }
+
+      .btn-sugestoes {
+        flex-direction: column;
+        height: auto;
+    }
+    
+      .btn-sugestao {
+        margin-bottom: 10px;
+    }
 }
+  
+@media (max-width: 767px) {
+    .lista-propriedades-rurais {
+        width: 90%;
+    }
+  
+    #btn-nova-propriedade {
+        width: 80%;
+    }
+  
+    .coluna-linha-tabela {
+        padding: 10px;
+    }
 
+    .btn-informacoes {
+        font-size: 0.5rem;
+    }
 
-*/
+    .btn-sugestoes {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    .btn-sugestao {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1200px) {
+    .lista-propriedades-rurais {
+        width: 70%;
+    }
+  
+    #btn-nova-propriedade {
+        width: 60%;
+    }
+
+    .btn-informacoes {
+        font-size: 0.5rem;
+    }
+
+    .btn-sugestoes {
+        height: auto;
+    }
+    
+    .btn-sugestao {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+}
