@@ -61,3 +61,29 @@
     justify-content: center;
     align-items: flex-start;
   }
+
+/* Responsividade */
+@media only screen and (max-width: 768px) {
+  #slogan {
+    font-size: 40px;
+  }
+  
+  .ongs, .imagem-home-dois {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #texto-ongs {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #slogan {
+    font-size: 30px;
+  }
+
+  #texto-ongs {
+    font-size: 14px;
+  }
+}
