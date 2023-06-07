@@ -35,3 +35,43 @@
     font-size: 16px;
     cursor: pointer;
 } 
+
+/* Responsividade */
+@media (max-width: 400px) {
+    .dados-propriedade {
+        width: 300px;
+    }
+  
+    .dados-propriedade input {
+        width: 60%;
+    }
+  
+    .botao {
+        width: 90%;
+    }
+}
+  
+@media (min-width: 401px) and (max-width: 767px) {
+    .dados-propriedade {
+        width: 400px;
+    }
+  
+    .dados-propriedade input {
+        width: 65%;
+    }
+  
+    .botao {
+        width: 150px;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1200px) {
+    .dados-propriedade {
+        width: 500px;
+    }
+  
+    .dados-propriedade input {
+        width: 70%;
+    }
+  
+}
